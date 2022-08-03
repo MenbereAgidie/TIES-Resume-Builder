@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="games-styles.css">
+        <title>Snake Game</title>
+    </head>
+    <body>
+      <div class="game-instructions">
+        <p>Use the arrow keys to move your snake along the grid. The goal is to eat as many apples as you can without eating your own tail.</p>
+        <br/>
+        <p>Every time your snake eats an apple, it will grow a square longer.</p>
+        <br/>
+        <p class="controls-title">Controls:</p>
+        <p class="control">⬆ - Move Up</p>
+        <p class="control">⮕ - Move Right</p>
+        <p class="control">⬇ - Move Down</p>
+        <p class="control">⬅ - Move Left</p>
+        <br/>
+        <a href="home.html">Click here to go home</a>
+      </div>
+      <div class="container noselect">
+          <div class="wrapper">
+            <button id="replay">
+              <i class="fas fa-play"></i>
+              RESTART
+            </button>
+            <div id="canvas">
+            </div>
+            <div id="ui">
+              <h2>SCORE
+              </h2>
+              <span id="score">00</span>
+            </div>
+          </div>
+          <div id="author">
+            <h1>SNAKE</h1> <span>by Fariat</span>
+          </div>
+        </div>
+      </div>
+        <script src="game-functionality.js"></script>
+    </body>
+</html>

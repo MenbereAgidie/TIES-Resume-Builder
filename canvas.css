@@ -1,0 +1,15 @@
+#canvas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Oswald';
+    align-items: center;
+    margin-top: 7.5%;
+}
+input {
+    width: 30em;
+}
+
+.shorter-input{
+    width: 200px;
+}
